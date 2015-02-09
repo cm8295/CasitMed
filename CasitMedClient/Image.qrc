@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="close">
+    <file>C:/Users/Administrator/Desktop/图标/ico/max.ico</file>
+  </qresource>
+  <qresource prefix="min">
+    <file>C:/Users/Administrator/Desktop/图标/ico/min.ico</file>
+  </qresource>
+</RCC>

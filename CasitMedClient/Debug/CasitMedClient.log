@@ -1,0 +1,51 @@
+﻿Build started 2015/2/9 16:48:43.
+     1>Project "J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\CasitMedClient\CasitMedClient.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Casitmedclient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /Id:\Qt\4.8.6\include\QtCore /Id:\Qt\4.8.6\include\QtGui /Id:\Qt\4.8.6\include\QtNetwork /Id:\Qt\4.8.6\include\QtXml /Id:\Qt\4.8.6\include\QtSql /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_SQL_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt filetransfer.cpp
+         filetransfer.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\\Casitmedclient.exe" /NOLOGO /LIBPATH:d:\Qt\4.8.6\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtXmld4.lib QtSqld4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Casitmedclient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\Casitmedclient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\Casitmedclient.lib" /MACHINE:X86 Debug\Casitmedclient.res
+         Debug\casitmedclient.obj
+         Debug\datachange.obj
+         Debug\DirectoryWatch.obj
+         Debug\filetransfer.obj
+         Debug\filewatch.obj
+         Debug\firstwatch.obj
+         Debug\moc_casitmedclient.obj
+         Debug\moc_datachange.obj
+         Debug\moc_filetransfer.obj
+         Debug\moc_filewatch.obj
+         Debug\moc_firstwatch.obj
+         Debug\moc_interfaceview.obj
+         Debug\moc_mythread.obj
+         Debug\moc_netwatch.obj
+         Debug\moc_transferdatastore.obj
+         Debug\moc_watchfilewatch.obj
+         Debug\qrc_casitmedclient.obj
+         Debug\interfaceview.obj
+         Debug\main.obj
+         Debug\mythread.obj
+         Debug\netwatch.obj
+         Debug\transferdatastore.obj
+         Debug\watchfilewatch.obj
+         LINK : J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\\Casitmedclient.exe not found or not built by the last incremental link; performing full link
+         CasitMedClient.vcxproj -> J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\Casitmedclient.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\Win32\Debug\\Casitmedclient.exe;#1" /manifest Debug\Casitmedclient.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Casitmedclient.unsuccessfulbuild".
+         Touching "Debug\Casitmedclient.lastbuildstate".
+     1>Done Building Project "J:\chenm\fileLoad\CasitMedClient - test\CasitMedProject\CasitMedClient\CasitMedClient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06

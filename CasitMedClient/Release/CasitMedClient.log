@@ -1,0 +1,42 @@
+﻿Build started 2015/1/29 11:48:38.
+     1>Project "J:\chenm\fileLoad\CasitMedClient - test\CasitMedClient\CasitMedClient.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Casitmedclient.unsuccessfulbuild".
+       CustomBuild:
+         Moc'ing casitmedclient.h...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.6\include /I.\GeneratedFiles\Release /Id:\Qt\4.8.6\include\QtCore /Id:\Qt\4.8.6\include\QtGui /Id:\Qt\4.8.6\include\QtNetwork /Id:\Qt\4.8.6\include\QtXml /Id:\Qt\4.8.6\include\QtSql /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_SQL_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt casitmedclient.cpp GeneratedFiles\Release\moc_casitmedclient.cpp GeneratedFiles\Release\moc_mythread.cpp main.cpp mythread.cpp
+         casitmedclient.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+     1>casitmedclient.cpp(6): error C2512: 'transferdatastore' : no appropriate default constructor available
+     1>casitmedclient.cpp(11): error C2819: type 'transferdatastore' does not have an overloaded member 'operator ->'
+                 j:\chenm\fileload\casitmedclient - test\casitmedclient\transferdatastore.h(11) : see declaration of 'transferdatastore'
+                 did you intend to use '.' instead?
+     1>casitmedclient.cpp(11): error C2232: '->transferdatastore::createconnectsqlite' : left operand has 'class' type, use '.'
+     1>casitmedclient.cpp(12): error C2819: type 'transferdatastore' does not have an overloaded member 'operator ->'
+                 j:\chenm\fileload\casitmedclient - test\casitmedclient\transferdatastore.h(11) : see declaration of 'transferdatastore'
+                 did you intend to use '.' instead?
+     1>casitmedclient.cpp(12): error C2232: '->transferdatastore::insertdatasqlite' : left operand has 'class' type, use '.'
+     1>casitmedclient.cpp(12): warning C4129: 'c' : unrecognized character escape sequence
+     1>casitmedclient.cpp(12): warning C4129: 'd' : unrecognized character escape sequence
+     1>casitmedclient.cpp(397): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>casitmedclient.cpp(414): warning C4804: '>' : unsafe use of type 'bool' in operation
+         moc_casitmedclient.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+         moc_mythread.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+         main.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+         mythread.cpp
+     1>d:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: 'QT_LARGEFILE_SUPPORT' : macro redefinition
+                 command-line arguments :  see previous definition of 'QT_LARGEFILE_SUPPORT'
+         Generating Code...
+     1>Done Building Project "J:\chenm\fileLoad\CasitMedClient - test\CasitMedClient\CasitMedClient.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.19
